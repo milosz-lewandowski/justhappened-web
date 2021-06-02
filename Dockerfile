@@ -1,20 +1,17 @@
-# pull official base image
 FROM node:13.12.0-alpine
+WORKDIR /home/debian/jhappdir/justhappened-web
 
-# set working directory
-WORKDIR /app
+#overrides package.json package-lock.json
+COPY package*.json ./
+#COPY package.json ./
+#COPY package-lock.json ./
 
-# add `/app/node_modules/.bin` to $PATH
-ENV PATH /app/node_modules/.bin:$PATH
-
-# install app dependencies
-COPY package.json ./
-COPY package-lock.json ./
-RUN npm install --silent
-RUN npm install react-scripts@3.4.1 -g --silent
+RUN npm install
 
 # add app
-COPY . ./
+COPY . .
+EXPOSE 80
 
 # start app
-CMD ["npm", "start"]
+#CMD ["npm", "start"]
+RUN npm start
