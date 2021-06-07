@@ -13,5 +13,4 @@ COPY . .
 EXPOSE 80
 
 # start app
-#CMD ["npm", "start"]
-RUN npm start
+CMD ["npm", "start"]
