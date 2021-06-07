@@ -1,7 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import {Game} from "./Game";
-import {NavigationBar} from "./NavigationBar";
+import {NavigationBar} from "./navigation/NavigationBar";
 import {Title} from "./Title";
 import {SectionsContainer} from "./SectionsContainer";
 
@@ -25,7 +24,6 @@ export class App extends React.Component{
                     </Col>
                 </Row>
             </Container>
-
         )
     }
 }

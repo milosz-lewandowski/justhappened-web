@@ -1,6 +1,6 @@
 import React from "react";
 import {Navbar, Nav, NavDropdown, } from "react-bootstrap";
-import {LaunchTechDetailsModal} from "./TechnicalDetails";
+import {LaunchTechDetailsModal} from "../TechnicalDetails";
 
 
 export class NavigationBar extends React.Component{
