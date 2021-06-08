@@ -5,7 +5,8 @@ export class Title extends React.Component{
     render() {
         return(
             <h1>
-                Miłosz Lewandowski <Badge variant="primary">JakSzybciutko</Badge>
+                Miłosz Lewandowski
+                {/*<Badge variant="primary">JakSzybciutko</Badge>*/}
             </h1>
         )
     }
