@@ -1,10 +1,9 @@
 import React from "react";
 import {Accordion, Card, Button} from "react-bootstrap";
-import {Game} from "./game/Game";
 import {MusicSection} from "./MusicSection";
 import {TechnicalDetails} from "./TechnicalDetails";
 import {ResumeDropdown} from "./ResumeDropdown";
-import {GameSection} from "./GameSection";
+import {GameSection} from "./game/GameSection";
 
 
 export class SectionsContainer extends React.Component{
@@ -19,7 +18,6 @@ export class SectionsContainer extends React.Component{
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body>
-                            {/*<Game />*/}
                             <GameSection/>
                         </Card.Body>
                     </Accordion.Collapse>
