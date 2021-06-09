@@ -1,19 +1,18 @@
-import {Dropdown} from "react-bootstrap";
+import {Dropdown, DropdownButton} from "react-bootstrap";
 import React from "react";
-import {ReactComponent} from "*.svg";
 
-export class ResumeDropdown extends ReactComponent {
+export class ResumeDropdown extends React.Component {
     render() {
         return (
-            <Dropdown>
-                <Dropdown.Toggle variant={"success"} id="dropdown-basic">
-                    resume
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
+            <DropdownButton title="resume">
+                {/*<Dropdown.Toggle variant={"success"} id="dropdown-basic">*/}
+                {/*    resume*/}
+                {/*</Dropdown.Toggle>*/}
+                {/*<Dropdown.Menu>*/}
                     <Dropdown.Item href="/resumes/en_java_dev_m_lewandowski_2021.pdf">english</Dropdown.Item>
                     <Dropdown.Item href="/resumes/pl_java_dev_m_lewandowski_2021.pdf">polish</Dropdown.Item>
-                </Dropdown.Menu>
-            </Dropdown>
+                {/*</Dropdown.Menu>*/}
+            </DropdownButton>
         );
     }
 }
