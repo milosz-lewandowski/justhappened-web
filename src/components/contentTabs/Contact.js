@@ -5,6 +5,9 @@ export class Contact extends React.Component {
         return (
             <div>
                 <div>
+                    Contact me by:
+                </div>
+                <div>
                     <img
                         src="miniatures/phone_round.png"
                         // width="32"
@@ -23,6 +26,9 @@ export class Contact extends React.Component {
                         alt="mail address"
                     />
                     private: milosz.hg@gmail.com
+                </div>
+                <div>
+                    Find me at:
                 </div>
                 <div>
                     <img
