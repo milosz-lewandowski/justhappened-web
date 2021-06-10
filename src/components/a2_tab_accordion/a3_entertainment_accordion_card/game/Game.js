@@ -1,7 +1,7 @@
 import React from "react";
 import {Board} from "./Board";
 import { Button } from 'react-bootstrap';
-import '../../index.css';
+import '../../../../index.css';
 
 
 export class Game extends React.Component {
