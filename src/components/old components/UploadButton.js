@@ -6,7 +6,7 @@ function FileUploadPage() {
 
     const changeHandler = (event) => {
         setSelectedFile(event.target.files[0]);
-        setIsSelected(true);
+        // setIsSelected(true);
     };
 
     const handleSubmission = () => {
@@ -33,7 +33,7 @@ function FileUploadPage() {
     return (
         <div>
             <input type="file" name="file" onChange={changeHandler}/>
-            {isSelected ? (
+            {/*{isSelected ? (*/}
                 <div>
                     <p>Filename: {selectedFile.name}</p>
                     <p>Filetype: {selectedFile.type}</p>
