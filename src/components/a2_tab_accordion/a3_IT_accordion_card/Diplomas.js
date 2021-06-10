@@ -7,7 +7,7 @@ export class Diplomas extends React.Component{
                 <li>
                     Java Foundations | Certified Junior Associate | Oracle | 2020
                     <br/>
-                    <a href="https://www.youracclaim.com/users/milosz-lewandowski/badges">See certificate</a>
+                    <a href="https://www.youracclaim.com/users/milosz-lewandowski/badges">Show certificate</a>
                 </li>
                 <li>
                     Java Developer Web | IT Bootcamp | CodersLab | 2018
