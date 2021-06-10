@@ -1,15 +1,14 @@
 import React from "react";
-import {Accordion, Card, Button} from "react-bootstrap";
-import {MusicSection} from "./MusicSection";
-import {TechnicalDetails} from "./TechnicalDetails";
-import {ResumeDropdown} from "./ResumeDropdown";
-import {GameSection} from "./game/GameSection";
+import {Accordion, Button, Card} from "react-bootstrap";
+import {MusicSection} from "./a3_entertainment_accordion_card/MusicSection";
+import {ResumeDropdown} from "./a3_entertainment_accordion_card/ResumeDropdown";
+import {GameSection} from "./a3_entertainment_accordion_card/game/GameSection";
 
 
-export class SectionsContainer extends React.Component{
+export class EntartainmentTab extends React.Component{
     render() {
         return(
-            <Accordion defaultActiveKey="">
+            <Accordion defaultActiveKey="1">
                 <Card>
                     <Card.Header>
                         <Accordion.Toggle as={Button} variant="text" eventKey="1">
@@ -25,11 +24,11 @@ export class SectionsContainer extends React.Component{
 
                 <Card>
                     <Card.Header>
-                        <Accordion.Toggle as={Button} variant="text" eventKey="9">
+                        <Accordion.Toggle as={Button} variant="text" eventKey="2">
                             test
                         </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="9">
+                    <Accordion.Collapse eventKey="2">
                         <Card.Body>
                             <ResumeDropdown />
                         </Card.Body>
@@ -38,25 +37,13 @@ export class SectionsContainer extends React.Component{
 
                 <Card>
                     <Card.Header>
-                        <Accordion.Toggle as={Button} variant="text" eventKey="0">
+                        <Accordion.Toggle as={Button} variant="text" eventKey="3">
                             Music Section
                         </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="0">
+                    <Accordion.Collapse eventKey="3">
                         <Card.Body>
                             <MusicSection />
-                        </Card.Body>
-                    </Accordion.Collapse>
-                </Card>
-                <Card>
-                    <Card.Header>
-                        <Accordion.Toggle as={Button} variant="text" eventKey="2">
-                            Technologies
-                        </Accordion.Toggle>
-                    </Card.Header>
-                    <Accordion.Collapse eventKey="2">
-                        <Card.Body>
-                            <TechnicalDetails />
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
