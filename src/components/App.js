@@ -1,9 +1,9 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import {NavigationBar} from "./navigation/NavigationBar";
-import {Title} from "./Title";
-import {SectionsContainer} from "./SectionsContainer";
-import {TabBar} from "./contentTabs/TabBar";
+import {Title} from "./a1_rows/Title";
+import {SectionsContainer} from "./a2_tab_accordion/SectionsContainer";
+import {TabBar} from "./a1_rows/TabBar";
 
 export class App extends React.Component{
     render(){
@@ -16,17 +16,7 @@ export class App extends React.Component{
                 </Row>
                 <Row>
                     <Col>
-                        <NavigationBar />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
                         <TabBar/>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <SectionsContainer />
                     </Col>
                 </Row>
             </Container>
