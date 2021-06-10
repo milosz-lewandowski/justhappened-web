@@ -2,7 +2,7 @@ import React from "react";
 import {Card, CardColumns, Dropdown, Tab, Tabs} from "react-bootstrap";
 import {About} from "../a2_tab_accordion/About";
 import {IT_tab} from "../a2_tab_accordion/IT_tab";
-import {SectionsContainer} from "../a2_tab_accordion/SectionsContainer";
+import {EntartainmentTab} from "../a2_tab_accordion/EntartainmentTab";
 import {ResumeDropdown} from "../a2_tab_accordion/a3_entertainment_accordion_card/ResumeDropdown";
 
 export class TabBar extends React.Component{
@@ -16,7 +16,7 @@ export class TabBar extends React.Component{
                     <IT_tab/>
                 </Tab>
                 <Tab eventKey="ent" title="Entertainment">
-                    <SectionsContainer/>
+                    <EntartainmentTab/>
                 </Tab>
                 <Tab eventKey="resume" title="Extremly interesting resume">
                     <ResumeDropdown/>
