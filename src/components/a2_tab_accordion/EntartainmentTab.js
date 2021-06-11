@@ -1,8 +1,8 @@
 import React from "react";
 import {Accordion, Button, Card} from "react-bootstrap";
 import {MusicSection} from "./a3_entertainment_accordion_card/MusicSection";
-import {ResumeDropdown} from "./a3_entertainment_accordion_card/ResumeDropdown";
 import {GameSection} from "./a3_entertainment_accordion_card/game/GameSection";
+import {Jhdesc} from "./a3_entertainment_accordion_card/Jhdesc";
 
 
 export class EntartainmentTab extends React.Component{
@@ -12,7 +12,7 @@ export class EntartainmentTab extends React.Component{
                 <Card>
                     <Card.Header>
                         <Accordion.Toggle as={Button} variant="text" eventKey="1">
-                            Game Section
+                            {/*<PatientForm/>*/}
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
@@ -21,20 +21,18 @@ export class EntartainmentTab extends React.Component{
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-
                 <Card>
                     <Card.Header>
-                        <Accordion.Toggle as={Button} variant="text" eventKey="2">
-                            test
+                        <Accordion.Toggle as={Button} variant="text" eventKey="0">
+                            Game Section
                         </Accordion.Toggle>
                     </Card.Header>
-                    <Accordion.Collapse eventKey="2">
+                    <Accordion.Collapse eventKey="0">
                         <Card.Body>
-                            <ResumeDropdown />
+                            <GameSection/>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-
                 <Card>
                     <Card.Header>
                         <Accordion.Toggle as={Button} variant="text" eventKey="3">
@@ -44,6 +42,18 @@ export class EntartainmentTab extends React.Component{
                     <Accordion.Collapse eventKey="3">
                         <Card.Body>
                             <MusicSection />
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card>
+                    <Card.Header>
+                        <Accordion.Toggle as={Button} variant="text" eventKey="4">
+                            JustHappened
+                        </Accordion.Toggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey="4">
+                        <Card.Body>
+                            <Jhdesc/>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
