@@ -6,6 +6,12 @@ import {EntartainmentTab} from "./a2_tab_accordion/EntartainmentTab";
 import {TabBar} from "./a1_rows/TabBar";
 
 export class App extends React.Component{
+
+
+    // state = {
+    //     patients: []
+    // }
+
     render(){
         return(
             <Container>
