@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, Col, Image, Row} from "react-bootstrap";
+import {Col, Image, Row} from "react-bootstrap";
 
 export class LinkedinItem extends React.Component {
     render() {
