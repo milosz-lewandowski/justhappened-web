@@ -1,5 +1,5 @@
 import React from "react";
-import {Accordion, Button, Card, Col, Image, ListGroup, Row} from "react-bootstrap";
+import {Accordion, Button, Card, ListGroup} from "react-bootstrap";
 import {PhoneItem} from "./a3_accordion_card/a4_card_item/PhoneItem";
 import {MailItem} from "./a3_accordion_card/a4_card_item/MailItem";
 import {GithubItem} from "./a3_accordion_card/a4_card_item/GithubItem";
@@ -7,8 +7,6 @@ import {LinkedinItem} from "./a3_accordion_card/a4_card_item/LinkedinItem";
 import {CredlyProfileItem} from "./a3_accordion_card/a4_card_item/CredlyProfileItem";
 import {AboutThisPage} from "./a3_accordion_card/AboutThisPage";
 import {AboutThisGuy} from "./a3_accordion_card/AboutThisGuy";
-import {AboutContactToHim} from "./a3_accordion_card/AboutContactToHim";
-import {OtherWebsitesHeLay} from "./a3_accordion_card/OtherWebsitesHeLay";
 
 export class About extends React.Component {
     render() {
@@ -59,7 +57,7 @@ export class About extends React.Component {
                 <Card>
                     <Card.Header>
                         <Accordion.Toggle as={Button} variant="text" eventKey="4">
-                            ...other websites reply
+                            ...for other websites requests - reply
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="4">
