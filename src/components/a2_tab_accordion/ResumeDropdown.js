@@ -4,7 +4,7 @@ import React from "react";
 export class ResumeDropdown extends React.Component {
     render() {
         return (
-            <DropdownButton title="resume">
+            <DropdownButton title="resume" >
                 {/*<Dropdown.Toggle variant={"success"} id="dropdown-basic">*/}
                 {/*    resume*/}
                 {/*</Dropdown.Toggle>*/}
