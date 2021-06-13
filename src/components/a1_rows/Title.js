@@ -1,5 +1,6 @@
 import React from "react";
 import {Badge, Col, Container, Image, Row} from "react-bootstrap";
+import {ResumeDropdown} from "../a2_tab_accordion/ResumeDropdown";
 
 export class Title extends React.Component {
     render() {
@@ -21,6 +22,13 @@ export class Title extends React.Component {
                         <h4 align="flex-end">
                             <Badge  variant="warning">under development </Badge>
                         </h4>
+                    </Col>
+                    <Col>
+                        <Row>
+                            <ResumeDropdown/>
+                        </Row>
+                        <Row></Row>
+                        <Row></Row>
                     </Col>
                 </Row>
             </Container>
