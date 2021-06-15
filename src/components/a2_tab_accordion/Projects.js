@@ -5,7 +5,7 @@ import {GameSection} from "./a3_entertainment_accordion_card/game/GameSection";
 import {Jhdesc} from "./a3_entertainment_accordion_card/Jhdesc";
 
 
-export class EntartainmentTab extends React.Component{
+export class Projects extends React.Component{
     render() {
         return(
             <Accordion defaultActiveKey="1">
