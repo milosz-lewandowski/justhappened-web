@@ -21,18 +21,18 @@ export class EntartainmentTab extends React.Component{
                 {/*        </Card.Body>*/}
                 {/*    </Accordion.Collapse>*/}
                 {/*</Card>*/}
-                <Card>
-                    <Card.Header>
-                        <Accordion.Toggle as={Button} variant="text" eventKey="0">
-                            Game Section
-                        </Accordion.Toggle>
-                    </Card.Header>
-                    <Accordion.Collapse eventKey="0">
-                        <Card.Body>
-                            <GameSection/>
-                        </Card.Body>
-                    </Accordion.Collapse>
-                </Card>
+                {/*<Card>*/}
+                {/*    <Card.Header>*/}
+                {/*        <Accordion.Toggle as={Button} variant="text" eventKey="0">*/}
+                {/*            Game Section*/}
+                {/*        </Accordion.Toggle>*/}
+                {/*    </Card.Header>*/}
+                {/*    <Accordion.Collapse eventKey="0">*/}
+                {/*        <Card.Body>*/}
+                {/*            <GameSection/>*/}
+                {/*        </Card.Body>*/}
+                {/*    </Accordion.Collapse>*/}
+                {/*</Card>*/}
                 <Card>
                     <Card.Header>
                         <Accordion.Toggle as={Button} variant="text" eventKey="3">
