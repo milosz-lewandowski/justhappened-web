@@ -9,18 +9,18 @@ export class EntartainmentTab extends React.Component{
     render() {
         return(
             <Accordion defaultActiveKey="1">
-                <Card>
-                    <Card.Header>
-                        <Accordion.Toggle as={Button} variant="text" eventKey="1">
-                            {/*<PatientForm/>*/}
-                        </Accordion.Toggle>
-                    </Card.Header>
-                    <Accordion.Collapse eventKey="1">
-                        <Card.Body>
-                            <GameSection/>
-                        </Card.Body>
-                    </Accordion.Collapse>
-                </Card>
+                {/*<Card>*/}
+                {/*    <Card.Header>*/}
+                {/*        <Accordion.Toggle as={Button} variant="text" eventKey="1">*/}
+                {/*            /!*<PatientForm/>*!/*/}
+                {/*        </Accordion.Toggle>*/}
+                {/*    </Card.Header>*/}
+                {/*    <Accordion.Collapse eventKey="1">*/}
+                {/*        <Card.Body>*/}
+                {/*            <GameSection/>*/}
+                {/*        </Card.Body>*/}
+                {/*    </Accordion.Collapse>*/}
+                {/*</Card>*/}
                 <Card>
                     <Card.Header>
                         <Accordion.Toggle as={Button} variant="text" eventKey="0">
