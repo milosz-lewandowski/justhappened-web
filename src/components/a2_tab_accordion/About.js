@@ -43,7 +43,7 @@ export class About extends React.Component {
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="3">
-                        <Card.Body as={ListGroup} fluid>
+                        <Card.Body as={ListGroup} fluid className="no-padding-card">
                             {/*<AboutContactToHim/>*/}
                             <ListGroup.Item fluid>
                                 <PhoneItem/>
@@ -61,8 +61,8 @@ export class About extends React.Component {
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="4">
-                        <Card.Body as={ListGroup}>
-                            <ListGroup.Item>
+                        <Card.Body as={ListGroup} className="no-padding-card">
+                            <ListGroup.Item >
                                 <GithubItem/>
                             </ListGroup.Item>
                             <ListGroup.Item>
