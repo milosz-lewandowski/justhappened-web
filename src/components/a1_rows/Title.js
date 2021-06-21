@@ -5,12 +5,13 @@ import {ResumeDropdown} from "../a2_tab_accordion/ResumeDropdown";
 export class Title extends React.Component {
     render() {
         return (
-            <Container>
+            <Container fluid="true">
                 <Row>
                     <Col>
                         <Image
+                            align="flex-start"
                             src="/myPhoto/myphoto.png"
-                        height="74"
+                        height="148"
 
                         />
                     </Col>
