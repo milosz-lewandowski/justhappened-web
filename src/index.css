@@ -45,6 +45,10 @@ ol, ul {
   width: 34px;
 }
 
+.no-padding-card{
+  padding: 0;
+}
+
 .square:focus {
   outline: none;
 }
@@ -62,6 +66,13 @@ ol, ul {
   margin-left: 20px;
 }
 
+.block-example {
+  width: 6rem;
+  height: 6rem;
+  margin: 0.5rem;
+  background-color: #eee;
+  display: inline-block;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
