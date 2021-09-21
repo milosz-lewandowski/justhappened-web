@@ -20,7 +20,7 @@ export class App extends React.Component{
                         <Title />
                     </Col>
                 </Row>
-                {/*<Row>*/}
+                {/*<  Row>*/}
                 {/*    <Col>*/}
                         <TabBar/>
                     {/*</Col>*/}
