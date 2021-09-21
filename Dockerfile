@@ -1,10 +1,7 @@
 FROM node:13.12.0-alpine
-WORKDIR /home/debian/jhappdir/justhappened-web
+WORKDIR /app
 
-#overrides package.json package-lock.json
 COPY package*.json ./
-#COPY package.json ./
-#COPY package-lock.json ./
 
 RUN npm install
 
