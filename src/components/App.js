@@ -25,10 +25,10 @@ export class App extends React.Component{
                         <TabBar/>
                     {/*</Col>*/}
                 {/*</Row>*/}
-                <Row>
-                    <Title2/>
-                </Row>
-                <TestBoard/>
+                {/*<Row>*/}
+                    {/*<Title2/>*/}
+                {/*</Row>*/}
+                {/*<TestBoard/>*/}
             </Container>
         )
     }
